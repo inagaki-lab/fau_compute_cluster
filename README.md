@@ -12,8 +12,16 @@ You can also request help from the HPC team by submitting a ticket under
 Note that this requires an FAU login (see below).
 
 # Example Workflows
-Specific examples are provided for
+Specific examples are provided that elaborate on the following topics:
 - [Running MATLAB](./matlab_on_hpc/README.md)
+    - submit jobs in a loop
+    - utilize temporary scratch directories
+- [Running Python](./python_on_hpc/README.md)
+    - install custom packages
+    - use GPU nodes
+    - workflow for DeepLabCut
+    - restart unfinished jobs
+
 
 Please read below for general information on how to access the HPC cluster and submit jobs.
 
