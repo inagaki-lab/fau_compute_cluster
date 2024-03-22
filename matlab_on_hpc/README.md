@@ -1,4 +1,13 @@
-# Running MATLAB files on the HPC
+Note that the HPC cluster runs on Linux,
+so you have to change file paths containing backslashes to forward slashes or use the operating-system-agnostic [fullfile](https://www.mathworks.com/help/matlab/ref/fullfile.html)
+function.
+
+# Running MATLAB jobs using the web interface
+The easiest way to run MATLAB on the HPC is to use the
+[OnDemand web interface](https://ondemand.hpc.fau.edu/).
+Select Interactive Apps -> MATLAB to launch MATLAB in the browser.
+
+# Running MATLAB jobs using the command line
 To run MATLAB on the HPC, you will need
 (i) a MATLAB file and
 (ii) a submit script in the same folder.

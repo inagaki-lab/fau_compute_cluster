@@ -1,3 +1,9 @@
+# Running Python in the web browser
+You can launch a Jupyter Notebook using the HPC cluster
+in the browser via the
+[OnDemand web interface](https://ondemand.hpc.fau.edu/)
+(Interactive Apps -> Jupyter Notebook).
+
 # Running Python using modules
 If you need only very basic Python packages,
 e.g. only `numpy` and `pandas`,
